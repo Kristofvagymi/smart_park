@@ -1,0 +1,16 @@
+MAS smart_park {
+
+	infrastructure: Centralised
+
+	environment: SmartPark
+
+	agents:
+		lm #2;
+		sprinkler;
+		visitor;
+		
+	aslSourcePath:
+		"src/asl";
+		
+	
+}
